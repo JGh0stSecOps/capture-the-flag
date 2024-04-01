@@ -2,7 +2,7 @@
 We're presented with a web address and source code for the web application.
 
 <p align="center">
-  <img src="./_resources/a257d01dfa91419eb9a0bc53930ef914.png" alt="numbers" />
+  <img src="./_resources/a257d01dfa91419eb9a0bc53930ef914.png" alt="numbers go brrr" width="500" height="300" />
 </p>
 
 ### Source code `main.py`
