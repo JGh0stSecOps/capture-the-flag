@@ -133,23 +133,15 @@ The decryption script takes advantage of this predictability by brute-forcing th
 
 3. **Key Generation**: 
    - The `brute_force_decrypt` function iterates over all possible seed values to generate a 128-bit AES key from eight generated numbers, each contributing 16 bits.
-
-4. **Decryption**: 
-   - Uses AES in ECB mode, which is vulnerable due to its deterministic nature, especially with repeated plaintext patterns.
-
-5. **Brute-Force Attack**: 
    - The script performs a brute-force attack over the limited seed space, checking for plaintext readability to identify the correct decryption key.
 
 #### Technical Details
 
-- **ECB Mode Weakness**: 
-  - ECB mode's vulnerability lies in its pattern preservation across identical plaintext blocks.
+##### Key Derivation: 
+Key derivation in the script lacks cryptographic strength. A secure KDF should be employed to ensure key unpredictability and resistance to attacks.
 
-- **Key Derivation**: 
-  - Key derivation in the script lacks cryptographic strength. A secure KDF should be employed to ensure key unpredictability and resistance to attacks.
-
-- **Entropy and Randomness**: 
-  - The security of the PRNG is heavily dependent on the seed's entropy. Using a higher entropy source for seed generation is crucial for preventing predictability.
+##### Entropy and Randomness: 
+The security of the PRNG is heavily dependent on the seed's entropy. Using a higher entropy source for seed generation is crucial for preventing predictability.
 
 ### Learning Resources
 #### Python Cryptography:
