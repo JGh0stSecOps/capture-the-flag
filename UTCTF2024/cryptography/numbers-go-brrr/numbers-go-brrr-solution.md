@@ -1,8 +1,9 @@
 # numbers go brrr
 
-We're presented with a web address and source code for the web application. We start by first examining the attached challenge code
+We're presented with a web address and source code for the web application.
 ![f98a9c9eef347561b44884e9394fe4cd.png](./_resources/a257d01dfa91419eb9a0bc53930ef914.png)
 
+### Source code `main.py`
 ```
 #!/usr/bin/env python3
 from Crypto.Cipher import AES
