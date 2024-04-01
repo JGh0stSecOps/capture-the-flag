@@ -1,7 +1,9 @@
 # numbers go brrr
-
 We're presented with a web address and source code for the web application.
-![f98a9c9eef347561b44884e9394fe4cd.png](./_resources/a257d01dfa91419eb9a0bc53930ef914.png)
+
+<p align="center">
+  <img src="./_resources/a257d01dfa91419eb9a0bc53930ef914.png" alt="numbers go brrr" />
+</p>
 
 ### Source code `main.py`
 ```
