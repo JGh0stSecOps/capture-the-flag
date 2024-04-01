@@ -2,7 +2,7 @@
 We're presented with a web address and source code for the web application.
 
 <p align="center">
-  <img src="./_resources/a257d01dfa91419eb9a0bc53930ef914.png" alt="numbers go brrr" />
+  <img src="./_resources/a257d01dfa91419eb9a0bc53930ef914.png" alt="numbers" />
 </p>
 
 ### Source code `main.py`
@@ -128,15 +128,15 @@ The decryption script takes advantage of this predictability by brute-forcing th
 
 ### Technical Analysis of the Script
 
-1. **Predictable Seed Generation**: 
-   - The `seed` is generated using `random.randint(0, 10 ** 6)`, which limits the seed to a million possibilities. This is not secure for cryptographic purposes.
+**Predictable Seed Generation**: 
+- The `seed` is generated using `random.randint(0, 10 ** 6)`, which limits the seed to a million possibilities. This is not secure for cryptographic purposes.
 
-2. **Pseudo-Random Number Generation**: 
-   - The `get_random_number` function squares the seed, pads it to 12 digits, and extracts the middle six digits to produce the next seed. This method is predictable and not suitable for cryptographic applications.
+**Pseudo-Random Number Generation**: 
+- The `get_random_number` function squares the seed, pads it to 12 digits, and extracts the middle six digits to produce the next seed. This method is predictable and not suitable for cryptographic applications.
 
-3. **Key Generation**: 
-   - The `brute_force_decrypt` function iterates over all possible seed values to generate a 128-bit AES key from eight generated numbers, each contributing 16 bits.
-   - The script performs a brute-force attack over the limited seed space, checking for plaintext readability to identify the correct decryption key.
+**Key Generation**: 
+- The `brute_force_decrypt` function iterates over all possible seed values to generate a 128-bit AES key from eight generated numbers, each contributing 16 bits.
+- The script performs a brute-force attack over the limited seed space, checking for plaintext readability to identify the correct decryption key.
 
 #### Technical Details
 
