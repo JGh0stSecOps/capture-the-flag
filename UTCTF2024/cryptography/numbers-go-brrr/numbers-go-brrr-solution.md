@@ -137,21 +137,21 @@ The decryption script takes advantage of this predictability by brute-forcing th
 
 #### Technical Details
 
-##### Key Derivation: 
-Key derivation in the script lacks cryptographic strength. A secure KDF should be employed to ensure key unpredictability and resistance to attacks.
+**Key Derivation**: 
+- Key derivation in the script lacks cryptographic strength. A secure KDF should be employed to ensure key unpredictability and resistance to attacks.
 
-##### Entropy and Randomness: 
-The security of the PRNG is heavily dependent on the seed's entropy. Using a higher entropy source for seed generation is crucial for preventing predictability.
+**Entropy and Randomness** 
+- The security of the PRNG is heavily dependent on the seed's entropy. Using a higher entropy source for seed generation is crucial for preventing predictability.
 
 ### Learning Resources
-#### Python Cryptography:
-   - [`pycryptodome` library documentation.](https://pycryptodome.readthedocs.io/en/latest/)
-   - ["Serious Cryptography" by Jean-Philippe Aumasson.](https://www.amazon.com/Serious-Cryptography-Practical-Introduction-Encryption/dp/1593278268)
+**Python Cryptography**:
+- [`pycryptodome` library documentation.](https://pycryptodome.readthedocs.io/en/latest/)
+- ["Serious Cryptography" by Jean-Philippe Aumasson.](https://www.amazon.com/Serious-Cryptography-Practical-Introduction-Encryption/dp/1593278268)
 
-#### Online Courses:
-   - [Cryptography courses on Coursera](https://www.coursera.org/search?query=Cryptography)
-   - [Cryptopals challenges.](https://cryptopals.com)
+**Online Courses**:
+- [Cryptography courses on Coursera](https://www.coursera.org/search?query=Cryptography)
+- [Cryptopals challenges.](https://cryptopals.com)
 
-#### Security Practices:
-   - [OWASP guidelines on secure coding.](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/stable-en/01-introduction/05-introduction)
-   - [NIST publication on random bit generation.](https://csrc.nist.gov/projects/random-bit-generation)
+**Security Practices**:
+- [OWASP guidelines on secure coding.](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/stable-en/01-introduction/05-introduction)
+- [NIST publication on random bit generation.](https://csrc.nist.gov/projects/random-bit-generation)
