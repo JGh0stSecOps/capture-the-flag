@@ -76,3 +76,7 @@ Another place to take notes with an apple pen.
 [Joplin](https://joplinapp.org/) synced to OneDrive for note taking in markdown. I can then easily transfer the files to GitHub. Works across all my gear
 
 <img src="images/joplin.png" alt="joplin" width="700"/> <!-- Adjust the width as needed -->
+
+[Flameshot](https://flameshot.org/) for screen capture. 
+
+<img src="images/flameshot.png" alt="flameshot" width="700"/> <!-- Adjust the width as needed -->
