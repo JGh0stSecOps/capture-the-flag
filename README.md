@@ -22,7 +22,7 @@ Welcome to my Capture The Flag (CTF) writeup repository. Each event has its own 
 [CTFtime](https://ctftime.org/)
 
 # Hardware
-Listed below is the hardware I use for CTFs. I chose the device because I could put up to 64GB of DDR5 RAM and it has both integrated GPU and Nvidia GPUs. This will allow me flexibility with virtual machines when future support is added for sharing intel/nvidia hybrid workloads with VMs. The 4060 is also a great mobile GPU for crytographic operations, which is common in CTF events. 
+Listed below is the hardware and OS preferences I have for my machines.
 
 <img src="images/arch-meme.png" alt="By the way, I use Arch Meme" width="450"/> <!-- Adjust the width as needed -->
 
