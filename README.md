@@ -22,6 +22,9 @@ Welcome to my Capture The Flag (CTF) writeup repository. Each event has its own 
 [CTFtime](https://ctftime.org/)
 
 # Hardware
+Listed below is the hardware I use for CTFs. I chose the device because I could put up to 64GB of DDR5 RAM and it has both integrated GPU and Nvidia GPUs. This will allow me flexibility with virtual machines when future support is added for sharing intel/nvidia hybrid workloads with VMs. The 4060 is also a great mobile GPU for crytographic operations, which is common in CTF events. 
+
+If you have questions about what kind of hardware you should look for or information about benchmarking what you have, let me know. You can run with anything much lower spec than this.
 ## MSI Katana 15 32GB DDR5 5600MHz RAM 4060 MAX-Q 2TB NVMe & 1TB NVMe
 
 <img src="images/msi_katana.png" alt="MSI Katana 15" width="700"/> <!-- Adjust the width as needed -->
