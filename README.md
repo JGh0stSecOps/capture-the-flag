@@ -62,15 +62,17 @@ If you have questions about what kind of hardware you should look for or informa
 ## Virtual Machines
 `virt-manager` for VMs. These run well and are easy to manage on Linux. You can utilize the Virtual Machine Manager GUI to create and manage KVMs.
 
-```
-pacman -Syu virt-manager
-```
-
 <img src="images/virtual-machine-manager.png" alt="Virtual Machine Manager" width="700"/> <!-- Adjust the width as needed -->
 
 <img src="images/windows-wtf.png" alt="Windows WTF Meme" width="450"/> <!-- Adjust the width as needed -->
 
+## 2020 M1 Macbook Pro 13"
+Preferred daily driver. However, for CTFs I much prefer x86_64 machines.
+
+## 2022 10.9" iPad Air
+Another place to take notes with an apple pen.
+
 ## Notes
-[Joplin](https://joplinapp.org/) synced to OneDrive for note taking in markdown. I can then easily transfer the files to GitHub.
+[Joplin](https://joplinapp.org/) synced to OneDrive for note taking in markdown. I can then easily transfer the files to GitHub. Works across all my gear
 
 <img src="images/joplin.png" alt="joplin" width="700"/> <!-- Adjust the width as needed -->
