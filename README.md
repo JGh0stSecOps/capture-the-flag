@@ -1,6 +1,18 @@
 # capture-the-flag
 Welcome to my Capture The Flag (CTF) writeup repository. Each event has its own set of markdown files. If this grows large enough, we will set up a Docusaurus instance to hold them.
 
+# Learning resources
+[picoCTF resources](https://picoctf.org/resources.html)
+[CTFS resources](https://ctfs.github.io/resources/)
+[CTFTime writeups](https://feedly.com/i/subscription/feed%2Fhttp%3A%2F%2Fctftime.org%2Fwriteups%2Frss%2F)
+[Writing good writing](https://pequalsnp-team.github.io/cheatsheet/writing-good-writeup)
+
+# Platforms
+[root-me](https://www.root-me.org/?lang=en)
+[hackthebox](https://www.hackthebox.com/)
+[tryhackme](https://tryhackme.com/)
+[overthewire](https://overthewire.org/wargames/)
+
 # Hardware
 ## MSI Katana 15 32GB DDR5 5600MHz RAM 4060 MAX-Q 2TB NVMe & 1TB NVMe
 
