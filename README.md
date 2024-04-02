@@ -19,6 +19,8 @@ Welcome to my Capture The Flag (CTF) writeup repository. Each event has its own 
 
 [overthewire](https://overthewire.org/wargames/)
 
+[CTFtime](https://ctftime.org/)
+
 # Hardware
 ## MSI Katana 15 32GB DDR5 5600MHz RAM 4060 MAX-Q 2TB NVMe & 1TB NVMe
 
