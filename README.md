@@ -3,14 +3,20 @@ Welcome to my Capture The Flag (CTF) writeup repository. Each event has its own 
 
 # Learning resources
 [picoCTF resources](https://picoctf.org/resources.html)
+
 [CTFS resources](https://ctfs.github.io/resources/)
+
 [CTFTime writeups](https://feedly.com/i/subscription/feed%2Fhttp%3A%2F%2Fctftime.org%2Fwriteups%2Frss%2F)
+
 [Writing good writing](https://pequalsnp-team.github.io/cheatsheet/writing-good-writeup)
 
 # Platforms
 [root-me](https://www.root-me.org/?lang=en)
+
 [hackthebox](https://www.hackthebox.com/)
+
 [tryhackme](https://tryhackme.com/)
+
 [overthewire](https://overthewire.org/wargames/)
 
 # Hardware
