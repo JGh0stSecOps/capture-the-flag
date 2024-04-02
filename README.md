@@ -24,6 +24,8 @@ Welcome to my Capture The Flag (CTF) writeup repository. Each event has its own 
 # Hardware
 Listed below is the hardware I use for CTFs. I chose the device because I could put up to 64GB of DDR5 RAM and it has both integrated GPU and Nvidia GPUs. This will allow me flexibility with virtual machines when future support is added for sharing intel/nvidia hybrid workloads with VMs. The 4060 is also a great mobile GPU for crytographic operations, which is common in CTF events. 
 
+<img src="images/arch-meme.png" alt="By the way, I use Arch Meme" width="450"/> <!-- Adjust the width as needed -->
+
 If you have questions about what kind of hardware you should look for or information about benchmarking what you have, let me know. You can run with anything much lower spec than this.
 ## MSI Katana 15 32GB DDR5 5600MHz RAM 4060 MAX-Q 2TB NVMe & 1TB NVMe
 
@@ -36,6 +38,7 @@ If you have questions about what kind of hardware you should look for or informa
 
 <img src="images/manjaro_neofetch.png" alt="manjaro-neofetch" width="450"/> <!-- Adjust the width as needed -->
 
+
 ## Virtual Machines
 `virt-manager` for VMs. These run well and are easy to manage on Linux. You can utilize the Virtual Machine Manager GUI to create and manage KVMs.
 
@@ -44,6 +47,8 @@ pacman -Syu virt-manager
 ```
 
 <img src="images/virtual-machine-manager.png" alt="Virtual Machine Manager" width="700"/> <!-- Adjust the width as needed -->
+
+<img src="images/windows-wtf.png" alt="Windows WTF Meme" width="450"/> <!-- Adjust the width as needed -->
 
 ## Notes
 [Joplin](https://joplinapp.org/) synced to OneDrive for note taking in markdown. I can then easily transfer the files to GitHub.
