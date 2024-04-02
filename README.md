@@ -27,7 +27,7 @@ Listed below is the hardware and OS preferences I have for my machines.
 <img src="images/arch-meme.png" alt="By the way, I use Arch Meme" width="450"/> <!-- Adjust the width as needed -->
 
 If you have questions about what kind of hardware you should look for or information about benchmarking what you have, let me know. You can run with anything much lower spec than this.
-## MSI Katana 15 32GB DDR5 5600MHz RAM 4060 MAX-Q 2TB NVMe & 1TB NVMe
+## MSI Katana 15
 
 <img src="images/msi_katana.png" alt="MSI Katana 15" width="700"/> <!-- Adjust the width as needed -->
 
@@ -36,8 +36,28 @@ If you have questions about what kind of hardware you should look for or informa
 - [Windows 11](https://www.microsoft.com/software-download/windows11) installed on 512GB partition
 - [ParrotOS](https://www.parrotsec.org/) installed on another 512GB partition
 
-<img src="images/manjaro_neofetch.png" alt="manjaro-neofetch" width="450"/> <!-- Adjust the width as needed -->
+```
+██████████████████  ████████   jgh0stsecops@MSI-manjaro 
+██████████████████  ████████   ------------------------ 
+██████████████████  ████████   OS: Manjaro Linux x86_64 
+██████████████████  ████████   Host: Katana 15 B13VFK REV:1.0 
+████████            ████████   Kernel: 6.6.19-1-MANJARO 
+████████  ████████  ████████   Uptime: 1 hour, 55 mins 
+████████  ████████  ████████   Packages: 1406 (pacman), 7 (snap) 
+████████  ████████  ████████   Shell: bash 5.2.26 
+████████  ████████  ████████   Resolution: 1920x1080 
+████████  ████████  ████████   DE: Plasma 5.27.11 
+████████  ████████  ████████   WM: kwin 
+████████  ████████  ████████   Theme: [Plasma], Breeze [GTK2/3] 
+████████  ████████  ████████   Icons: [Plasma], breeze [GTK2/3] 
+████████  ████████  ████████   Terminal: konsole 
+                               CPU: 13th Gen Intel i7-13620H (16) @ 4.700GHz 
+                               GPU: NVIDIA GeForce RTX 4060 Max-Q / Mobile 
+                               GPU: Intel Raptor Lake-P [UHD Graphics] 
+                               Memory: 7021MiB / 31803MiB 
 
+                                                       
+```
 
 ## Virtual Machines
 `virt-manager` for VMs. These run well and are easy to manage on Linux. You can utilize the Virtual Machine Manager GUI to create and manage KVMs.
